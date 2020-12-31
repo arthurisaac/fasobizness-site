@@ -1,4 +1,4 @@
-{{$annonce}}
+
 <div class="col-lg-12">
     <a href="#"><img src="{{ asset('img/f1.png') }}" height="100%" alt="banner"/></a>
 </div>
