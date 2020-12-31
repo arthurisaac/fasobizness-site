@@ -2,23 +2,111 @@
 
 @section('content')
 
-<section class="hero-section set-bg" data-setbg="{{ asset('img/hero.jpg') }}">
+<section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-7">
-                <div class="hero-text">
-                    <h2>Apprenez où vous voulez avec Learning</h2>
-                    <ul class="list-group">
-                        <li class="list-group-item">Découvrez plus de 100 000 cours</li>
-                        <li class="list-group-item">Télécharger des cours pour les regarder hors ligne</li>
-                        <li class="list-group-item">Écouter des cours en podcast</li>
-                        <li class="list-group-item">Regarder des cours avec Chromecast ou l'Apple TV</li>
-                    </ul>
-                    <a href="#" class="primary-btn my-5">Nous rejoindre</a>
+            <div class="col-lg-12">
+               <img src="{{ asset('img/003.jpg') }}" alt="..."/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="team-member-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title mt-5">
+                    <h2>Bienvenue sur notre store</h2>
+                    <p class="mt-3">Voici les entreprises actifs de la plateforme. Vous aussi dès à présent devenez une de nos entreprises en or en créant votre premiere boutique !</p>
+                </div>
+                <div class="mt-4 mb-4 text-center">
+                    <button type="button" class="btn btn-info">Offres / Annonces</button>
+                    <button type="button" class="btn btn-danger">Offres en Or</button>
+                    <button type="button" class="btn btn-secondary">Entreprise a la une</button>
                 </div>
             </div>
-            <div class="col-lg-5">
-                <img src="{{ asset('img/hero-right.png') }}" alt="">
+        </div>
+    </div>
+    <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
+        
+        <div class="mi-text text-center">
+            <h5>Canape</h5>
+            <p>Prix: 150.000f</p>
+            <span>Couleur blanche</span>
+        </div>
+    </div>
+    <div class="member-item set-bg" data-setbg="{{ asset('img/ch.png') }}">
+       
+        <div class="mi-text text-center">
+            <h5>Chemise blanche</h5>
+            <p>Prix: 25.000f</p>
+            <span>Taille: xxl</span>
+        </div>
+    </div>
+    <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
+       
+        <div class="mi-text text-center">
+            <h5>Chaussure noires</h5>
+            <p>Prix: 150.000f</p>
+            <span>Taille: 44</span>
+        </div>
+    </div>
+    <div class="member-item set-bg" data-setbg="{{ asset('img/ch.png') }}">
+        
+        <div class="mi-text text-center">
+            <h5>Chemise blanche</h5>
+            <p>Prix: 25.000f</p>
+            <span>Taille: Xxl</span>
+        </div>
+    </div>
+    <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
+        
+        <div class="mi-text text-center">
+            <h5>Canape</h5>
+            <p>Prix: 150.000f</p>
+            <span>Taille: 200mCare</span>
+        </div>
+    </div>
+   
+</section>
+
+<section class="team-member-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title mt-5">
+                    <h2>ACHAT FLASH</h2>
+                    <p class="mt-3">Beneficie de la promo de fin d'annee et acheter les meilleurs articles !</p>
+                </div>         
+            </div>
+        </div>
+    </div>   
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-6 border border-light">
+            <h3 style="color:red;">Super promos de fin d'annee</h3>
+            <img class="float-right" src="{{ asset('img/2.jpg') }}" width="275px" alt="2"/>
+            <p>Promo sur les chaussure</p>
+            <h4>1000fcfa</h4>
+            <p>Delais restant</p>
+        </div>
+       
+        <div class="col-lg-6 border border-light">
+            <h3 style="color:red;">Promos de fin d'annee des boutiques</h3>
+            <img class="float-right" src="{{ asset('img/h3.jpg') }}" width="275px" alt="h3"/>
+            <p>Promo sur les chemises</p>
+            <h4>1500fcfa</h4>
+            <p>Delais restant</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            <img src="{{ asset('img/f.jpeg') }}" width="100%" class="img-fluid" alt="...">
             </div>
         </div>
     </div>
@@ -30,19 +118,19 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="ha-pic mt-5">
-                    <img src="https://blog.cursuspro.com/wp-content/uploads/2017/07/CursusPro_Tendances_e-learning.jpg" alt="">
+                    <img src="{{ asset('img/005.jpg') }}" alt="">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="ha-text">
-                    <h2>A propos de Elearning</h2>
+                    <h2>A propos de Fasobizness</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in lacus a velit pretium finibus. In vitae dolor tellus. Aenean a mi elit. Donec suscipit efficitur lectus at condimentum. Ut non ante non eros hendrerit egestas. Etiam sit amet diam elementum, luctus turpis vel, consectetur enim. Curabitur ante mi, mollis non fringilla at, tincidunt ut lectus.</p>
                     <ul>
-                        <li><i class="fas fa-check"></i> Plus de 120 formateurs compétents</li>
-                        <li><i class="fas fa-check"></i> Plus de 500 cours disponibles</li>
-                        <li><i class="fas fa-check"></i> Contenu vidéo</li>
+                        <li><i class="fas fa-check"></i> Plus de 100 annonces</li>
+                        <li><i class="fas fa-check"></i> Plus de 500 articles disponibles</li>
+                        <li><i class="fas fa-check"></i> Des boutiques en lignes</li>
                     </ul>
-                    <a href="#" class="ha-btn">Voir les cours</a>
+                    <a href="#" class="ha-btn">Voir les offres et annonces</a>
                 </div>
             </div>
         </div>
@@ -54,80 +142,50 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h2>Nos formateurs</h2>
-                    <p>Voici les formateurs actifs de la plateforme. Vous aussi dès à présent devenez formateurs et créez votre premier cours !</p>
+                    <h2>Nos offres et annonces</h2>
+                    <p>Voici les entreprises actifs de la plateforme. Vous aussi dès à présent devenez une de nos entreprises en or en créant votre premiere boutique !</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="member-item set-bg" data-setbg="https://uploads-ssl.webflow.com/5bddf05642686caf6d17eb58/5dc2fd00c29f7abeadd7c332_gPZwCbdS.jpg">
-        <div class="mi-social">
-            <div class="mi-social-inner bg-gradient">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-            </div>
-        </div>
+    <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
+        
         <div class="mi-text text-center">
-            <h5>Florent NICOLAS</h5>
-            <span>Formateur</span>
+            <h5>Canape</h5>
+            <p>Prix: 150.000f</p>
+            <span>Couleur blanche</span>
         </div>
     </div>
-    <div class="member-item set-bg" data-setbg="https://uploads-ssl.webflow.com/5bddf05642686caf6d17eb58/5dc2fd00c29f7abeadd7c332_gPZwCbdS.jpg">
-        <div class="mi-social">
-            <div class="mi-social-inner bg-gradient">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-            </div>
-        </div>
+    <div class="member-item set-bg" data-setbg="{{ asset('img/ch.png') }}">
+       
         <div class="mi-text text-center">
-            <h5>Florent NICOLAS</h5>
-            <span>Formateur</span>
+            <h5>Chemise blanche</h5>
+            <p>Prix: 25.000f</p>
+            <span>Taille: xxl</span>
         </div>
     </div>
-    <div class="member-item set-bg" data-setbg="https://uploads-ssl.webflow.com/5bddf05642686caf6d17eb58/5dc2fd00c29f7abeadd7c332_gPZwCbdS.jpg">
-        <div class="mi-social">
-            <div class="mi-social-inner bg-gradient">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-            </div>
-        </div>
+    <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
+       
         <div class="mi-text text-center">
-            <h5>Florent NICOLAS</h5>
-            <span>Formateur</span>
+            <h5>Chaussure noires</h5>
+            <p>Prix: 150.000f</p>
+            <span>Taille: 44</span>
         </div>
     </div>
-    <div class="member-item set-bg" data-setbg="https://uploads-ssl.webflow.com/5bddf05642686caf6d17eb58/5dc2fd00c29f7abeadd7c332_gPZwCbdS.jpg">
-        <div class="mi-social">
-            <div class="mi-social-inner bg-gradient">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-            </div>
-        </div>
+    <div class="member-item set-bg" data-setbg="{{ asset('img/ch.png') }}">
+        
         <div class="mi-text text-center">
-            <h5>Florent NICOLAS</h5>
-            <span>Formateur</span>
+            <h5>Chemise blanche</h5>
+            <p>Prix: 25.000f</p>
+            <span>Taille: Xxl</span>
         </div>
     </div>
-    <div class="member-item set-bg" data-setbg="https://uploads-ssl.webflow.com/5bddf05642686caf6d17eb58/5dc2fd00c29f7abeadd7c332_gPZwCbdS.jpg">
-        <div class="mi-social">
-            <div class="mi-social-inner bg-gradient">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-            </div>
-        </div>
+    <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
+        
         <div class="mi-text text-center">
-            <h5>Florent NICOLAS</h5>
-            <span>Formateur</span>
+            <h5>Canape</h5>
+            <p>Prix: 150.000f</p>
+            <span>Taille: 200mCare</span>
         </div>
     </div>
 </section>
@@ -137,48 +195,31 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h2>Ces cours pourraient vous intéresser</h2>
-                    <p>Vous ne trouvez pas le cours que vous souhaitez sur notre site ? Udemy propose plus de 10 000 cours, ainsi que plus de 500 formateurs, couvrant tous les secteurs du digital.</p>
+                    <h2>Entreprises a la une</h2>
+                    <p>Decouvrez nos differentes entreprises a la une de cette fin d'annee.</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <div class="latest-item set-bg" data-setbg="https://blog.hyperiondev.com/wp-content/uploads/2019/02/Blog-Types-of-Web-Dev.jpg">
-                    <div class="li-tag">19,99</div>
+                <div class="latest-item set-bg" data-setbg="{{ asset('img/keo.jpg') }}">
+                    <!-- <div class="li-tag">19,99</div> -->
                     <div class="li-text">
-                        <h5><a href="#">Les bases de Symfony 4</a></h5>
-                        <span><i class="fa fas-user"></i> Par <b>Florent NICOLAS</b></span>
+                        <h5><a href="#">Keolid</a></h5>
+                        <span><i class="fa fas-user"></i> Par <b>keolid</b></span>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="latest-item set-bg" data-setbg="https://blog.hyperiondev.com/wp-content/uploads/2019/02/Blog-Types-of-Web-Dev.jpg">
-                    <div class="li-tag">19,99</div>
+                <div class="latest-item set-bg" data-setbg="{{ asset('img/baf.jfif') }}">
+                    <!-- <div class="li-tag">19,99</div> -->
                     <div class="li-text">
-                        <h5><a href="#">Les bases de Symfony 4</a></h5>
-                        <span><i class="fa fas-user"></i> Par <b>Florent NICOLAS</b></span>
+                        <h5><a href="#">bafa tech</a></h5>
+                        <span><i class="fa fas-user"></i> Par <b>bafa tech</b></span>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="latest-item set-bg" data-setbg="https://blog.hyperiondev.com/wp-content/uploads/2019/02/Blog-Types-of-Web-Dev.jpg">
-                    <div class="li-tag">19,99</div>
-                    <div class="li-text">
-                        <h5><a href="#">Les bases de Symfony 4</a></h5>
-                        <span><i class="fa fas-user"></i> Par <b>Florent NICOLAS</b></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="latest-item set-bg" data-setbg="https://blog.hyperiondev.com/wp-content/uploads/2019/02/Blog-Types-of-Web-Dev.jpg">
-                    <div class="li-tag">19,99 €</div>
-                    <div class="li-text">
-                        <h5><a href="#">Les bases de Symfony 4</a></h5>
-                        <span><i class="fa fas-user"></i> Par <b>Florent NICOLAS</b></span>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </section>
@@ -188,7 +229,8 @@
         <div class="newslatter-inner set-bg" data-setbg="img/newslatter-bg.jpg">
             <div class="ni-text">
                 <h3>S'abonner à notre newsletter</h3>
-                <p>Restez informé des derniers cours mis en ligne !</p>
+                <p>Restez informé des derniers annonces mis en ligne !</p>
+                <a href="#"><h3>Telecharger l'application <br/>ICI</h3></a>
             </div>
             <form action="#" method="POST" class="ni-form">
                 <input type="text" placeholder="Votre adresse email" name="email">
