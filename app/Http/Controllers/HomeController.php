@@ -14,7 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        // $this->middleware('auth');
     }
 
     /**
@@ -27,8 +27,8 @@ class HomeController extends Controller
         //recuperation des donnees de la BD
         //$affiche_pub = Affiches_pub::all();
         $annonce = Annonce::all();
-        
+
         // dd($annonce);
-        return view('home', compact('annonce'));
+        return view('main.home', compact('annonce'));
     }
 }

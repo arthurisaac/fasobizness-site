@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
 <section>
     <div class="container">
         <div class="row">
@@ -29,7 +28,7 @@
         </div>
     </div>
     <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
-        
+
         <div class="mi-text text-center">
             <h5>Canape</h5>
             <p>Prix: 150.000f</p>
@@ -37,7 +36,7 @@
         </div>
     </div>
     <div class="member-item set-bg" data-setbg="{{ asset('img/ch.png') }}">
-       
+
         <div class="mi-text text-center">
             <h5>Chemise blanche</h5>
             <p>Prix: 25.000f</p>
@@ -45,7 +44,7 @@
         </div>
     </div>
     <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
-       
+
         <div class="mi-text text-center">
             <h5>Chaussure noires</h5>
             <p>Prix: 150.000f</p>
@@ -53,7 +52,7 @@
         </div>
     </div>
     <div class="member-item set-bg" data-setbg="{{ asset('img/ch.png') }}">
-        
+
         <div class="mi-text text-center">
             <h5>Chemise blanche</h5>
             <p>Prix: 25.000f</p>
@@ -61,14 +60,14 @@
         </div>
     </div>
     <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
-        
+
         <div class="mi-text text-center">
             <h5>Canape</h5>
             <p>Prix: 150.000f</p>
             <span>Taille: 200mCare</span>
         </div>
     </div>
-   
+
 </section>
 
 <section class="team-member-section">
@@ -78,10 +77,10 @@
                 <div class="section-title mt-5">
                     <h2>ACHAT FLASH</h2>
                     <p class="mt-3">Beneficie de la promo de fin d'annee et acheter les meilleurs articles !</p>
-                </div>         
+                </div>
             </div>
         </div>
-    </div>   
+    </div>
     <div class="container">
         <div class="row">
         <div class="col-lg-6 border border-light">
@@ -91,7 +90,7 @@
             <h4>1000fcfa</h4>
             <p>Delais restant</p>
         </div>
-       
+
         <div class="col-lg-6 border border-light">
             <h3 style="color:red;">Promos de fin d'annee des boutiques</h3>
             <img class="float-right" src="{{ asset('img/h3.jpg') }}" width="275px" alt="h3"/>
@@ -149,7 +148,7 @@
         </div>
     </div>
     <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
-        
+
         <div class="mi-text text-center">
             <h5>Canape</h5>
             <p>Prix: 150.000f</p>
@@ -157,7 +156,7 @@
         </div>
     </div>
     <div class="member-item set-bg" data-setbg="{{ asset('img/ch.png') }}">
-       
+
         <div class="mi-text text-center">
             <h5>Chemise blanche</h5>
             <p>Prix: 25.000f</p>
@@ -165,7 +164,7 @@
         </div>
     </div>
     <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
-       
+
         <div class="mi-text text-center">
             <h5>Chaussure noires</h5>
             <p>Prix: 150.000f</p>
@@ -173,7 +172,7 @@
         </div>
     </div>
     <div class="member-item set-bg" data-setbg="{{ asset('img/ch.png') }}">
-        
+
         <div class="mi-text text-center">
             <h5>Chemise blanche</h5>
             <p>Prix: 25.000f</p>
@@ -181,7 +180,7 @@
         </div>
     </div>
     <div class="member-item set-bg" data-setbg="{{ asset('img/00.png') }}">
-        
+
         <div class="mi-text text-center">
             <h5>Canape</h5>
             <p>Prix: 150.000f</p>
@@ -219,7 +218,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>

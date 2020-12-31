@@ -1,4 +1,4 @@
-
+{{$annonce}}
 <div class="col-lg-12">
     <a href="#"><img src="{{ asset('img/f1.png') }}" height="100%" alt="banner"/></a>
 </div>
@@ -15,7 +15,7 @@
 
         <div class="">
             <form action="#" method="get" id="searchForm" class="input-group">
-                
+
                 <div class="input-group-btn search-panel">
                     <select name="search_param" id="search_param" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                         <option value="all">Tous</option>
@@ -30,14 +30,14 @@
                     <span class="glyphicon glyphicon-search"></span>
                     </button>
                 </span>
-            </form><!-- end form -->     
-                     
+            </form><!-- end form -->
+
         </div><!-- end col-md-9 -->
     </div>
 
     <div class="col-lg-3 mt-5">
     <form action="#" method="get" id="searchForm" class="input-group">
-                
+
                 <div class="input-group-btn search-panel">
                     <select name="search_param" id="search_param" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                         <option value="all">Villes</option>
@@ -50,7 +50,7 @@
                         <option value="">Manga</option>
                     </select>
                 </div>
-            </form><!-- end form --> 
+            </form><!-- end form -->
     </div>
 
 </div>
